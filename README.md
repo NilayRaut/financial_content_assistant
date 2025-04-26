@@ -68,20 +68,23 @@ The system implements two core generative AI components:
    - Source attribution and citation
 
 ## Setup Instructions
-
+- You can also run this directly into Google Colab Environment you just need an openai api key
+  
 ### Prerequisites
 
 - Python 3.8+
-- OpenAI API key
+- OpenAI API key( visit platform.openai.com and sign with your openai account and select 'View API Key' and then 'Create New Secret Key' to generate your new key)
+
 
 ### Installation
 
 1. Clone this repository:
    'git clone https://github.com/NilayRaut/financial_content_assistant.git'
+   
    'cd financial-content-assistant'
-2. Install required dependencies:
+3. Install required dependencies:
    'pip install -r requirements.txt'
-3. Set up your OpenAI API key:
+4. Set up your OpenAI API key:
    'export OPENAI_API_KEY="your-api-key-here"'
 
 ### Running the Application
