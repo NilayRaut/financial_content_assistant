@@ -1,0 +1,108 @@
+# Financial Terms Dictionary
+
+## Banking Terms
+
+### A-B
+- **Annual Percentage Rate (APR)**: The interest rate and fees charged per year for a loan or credit card, expressed as a percentage.
+- **Annual Percentage Yield (APY)**: The effective annual rate of return taking into account the compounding of interest on an account.
+- **Assets**: Anything of value owned by a person or organization, including cash, investments, and property.
+- **Automated Clearing House (ACH)**: A network that processes electronic payments and money transfers between banks.
+- **Available Balance**: The amount in an account that can be withdrawn or invested, excluding pending transactions.
+- **Balance**: The total amount of funds in your account.
+- **Budget**: A plan that outlines expected income and expenses for a specific period.
+
+### C-D
+- **Certificate of Deposit (CD)**: A time deposit that offers a fixed interest rate for a specified term.
+- **Credit Score**: A numerical expression based on credit history that represents a person's creditworthiness.
+- **Debit Card**: A card that allows direct access to a checking account for purchases and ATM withdrawals.
+- **Deposit**: An addition to an account, such as cash or checks added to a bank account.
+- **Direct Deposit**: Automatic electronic deposit of wages or benefits into a bank account.
+- **Diversification**: Spreading investments across different assets to reduce risk.
+
+### E-F
+- **Electronic Funds Transfer (EFT)**: Moving money between accounts through electronic payment systems.
+- **Emergency Fund**: Money set aside for unexpected expenses or financial hardships.
+- **FDIC Insurance**: Federal deposit insurance that protects bank deposits up to $250,000 per depositor, per bank.
+- **Fixed Rate**: An interest rate that remains constant throughout the loan term.
+
+### I-L
+- **Interest**: The cost of borrowing money or the return earned on deposited funds.
+- **Liabilities**: Debts or financial obligations owed to others.
+- **Liquidity**: How quickly an asset can be converted to cash without significant loss of value.
+- **Loan**: Money borrowed that must be repaid, usually with interest.
+
+### M-P
+- **Minimum Balance**: The lowest amount required in an account to avoid fees or qualify for certain benefits.
+- **Mobile Banking**: Accessing bank accounts through a smartphone app.
+- **Overdraft**: When withdrawals exceed available funds in an account.
+- **Prime Rate**: The interest rate that banks charge their most creditworthy customers.
+
+### R-Z
+- **Routing Number**: A nine-digit code that identifies a financial institution in a transaction.
+- **Savings Account**: An interest-bearing deposit account used for storing money.
+- **Transaction**: Any activity that affects an account balance, such as deposits, withdrawals, or transfers.
+- **Variable Rate**: An interest rate that can change during the loan term.
+
+## Investment Terms
+
+### A-B
+- **Alpha**: The excess return of an investment relative to the return of a benchmark index.
+- **Asset Allocation**: The distribution of investments among different asset categories to balance risk and reward.
+- **Bear Market**: A declining market characterized by falling prices and widespread pessimism.
+- **Beta**: A measure of an investment's volatility compared to the market as a whole.
+- **Bond**: A debt security where the issuer owes the holder a debt and pays interest and/or principal at a later date.
+- **Bull Market**: A rising market characterized by increasing prices and investor optimism.
+
+### C-D
+- **Capital Gain**: Profit from selling an investment for more than its purchase price.
+- **Compound Interest**: Interest calculated on both the initial principal and accumulated interest.
+- **Dividend**: A portion of a company's earnings distributed to shareholders.
+- **Diversification**: Spreading investments across various assets to reduce risk.
+- **Dollar-Cost Averaging**: Investing a fixed amount regularly regardless of market conditions.
+
+### E-I
+- **ETF (Exchange-Traded Fund)**: An investment fund traded on stock exchanges like individual stocks.
+- **Equity**: Ownership interest in a company, typically in the form of stock.
+- **Index Fund**: A passively managed fund designed to track a specific market index.
+- **Inflation**: The rate at which the general level of prices for goods and services rises.
+- **Interest Rate**: The percentage charged by a lender to a borrower for the use of assets.
+
+### M-P
+- **Market Capitalization**: The total value of a company's outstanding shares.
+- **Mutual Fund**: An investment vehicle made up of a pool of funds from many investors.
+- **Portfolio**: A collection of investments owned by an individual or organization.
+- **Price-to-Earnings Ratio (P/E)**: A valuation ratio of a company's current share price compared to its earnings per share.
+
+### R-Z
+- **REIT (Real Estate Investment Trust)**: A company that owns, operates, or finances income-producing real estate.
+- **Return on Investment (ROI)**: A performance measure used to evaluate the efficiency of an investment.
+- **Risk Tolerance**: An investor's ability and willingness to endure market volatility.
+- **Stock**: A security representing ownership in a corporation.
+- **Yield**: The income returned on an investment, such as interest or dividends.
+
+## Economic Terms
+
+### A-F
+- **Bonds**: Fixed-income securities issued by governments or corporations to raise money.
+- **Consumer Price Index (CPI)**: A measure of the average change over time in prices paid by consumers for goods and services.
+- **Fiscal Policy**: Government spending and taxation decisions to influence the economy.
+- **Futures**: Contracts to buy or sell an asset at a predetermined price at a specific future date.
+
+### G-M
+- **GDP (Gross Domestic Product)**: The total value of goods and services produced within a country's borders.
+- **Inflation**: The rate at which the general level of prices for goods and services rises.
+- **Monetary Policy**: Actions of a central bank to influence the money supply and credit conditions.
+
+### R-Z
+- **Recession**: A significant decline in economic activity lasting for at least six months.
+- **S&P 500**: A stock market index tracking the performance of 500 large companies listed on U.S. stock exchanges.
+- **Treasury Bill**: A short-term debt obligation backed by the U.S. government with a maturity of less than one year.
+- **Yield Curve**: A line plotting the interest rates of bonds with equal credit quality but differing maturity dates.
+
+## Sources:
+- Investopedia Financial Terms Dictionary: https://www.investopedia.com/financial-term-dictionary-4769738
+- Consumer Financial Protection Bureau Glossary: https://www.consumerfinance.gov/consumer-tools/educator-tools/youth-financial-education/glossary/
+- Banking Terms Glossary: https://www.helpwithmybank.gov/glossary/index-glossary.html
+- J.P. Morgan Asset Management Glossary: https://am.jpmorgan.com/us/en/asset-management/adv/resources/glossary-of-investment-terms/
+- Harvard Business School Financial Terms: https://online.hbs.edu/blog/post/finance-for-non-finance-professionals-finance-terms-to-know
+- Canadian Investment Regulatory Organization Glossary: https://www.ciro.ca/office-investor/investing-basics/glossary-common-investing-terms

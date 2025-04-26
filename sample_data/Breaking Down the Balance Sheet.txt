@@ -1,0 +1,64 @@
+A company's financial statements—balance sheet, income, and cash flow statements—are a key source of data for analyzing the investment value of its stock. Stock investors, both the do-it-yourselfers and those who follow the guidance of an investment professional, don't need to be analytical experts to perform a financial statement analysis. Today, there are numerous sources of independent stock research, online and in print, which can do the number crunching for you. However, if you're going to become a serious stock investor, a basic understanding of the fundamentals of financial statement usage is a must. This guide will help you to become more familiar with the overall structure of the balance sheet.
+
+Key Takeaways
+A balance sheet is made up of a company's assets, liabilities, and equity, which are arranged in either an account form (horizontal) or report form (vertical) presentation.
+There are five sections on a balance sheet: current assets, non-current assets, current liabilities, non-current liabilities, and shareholders' equity.
+The terms "current" and "non-current" mean the same thing as short-term and long-term, respectively, and are used interchangeably.
+Assets are listed in descending order of their liquidity; liabilities are listed in the order of their priority for payment.
+A balance sheet represents a company's financial position for one day at its fiscal year end, which is different from its income and cash flow statements, which reflect a company's operations for its whole fiscal year.
+The Structure of a Balance Sheet 
+A company's balance sheet comprises assets, liabilities, and equity. Assets represent things of value that a company owns and has in its possession, or something that will be received and can be measured objectively. Liabilities are what a company owes to others—creditors, suppliers, tax authorities, employees, etc. They are obligations that must be paid under certain conditions and time frames. A company's equity represents retained earnings and funds contributed by its shareholders, who accept the uncertainty that comes with ownership risk in exchange for what they hope will be a good return on their investment.
+
+The relationship of these items is expressed in the fundamental balance sheet equation:
+1
+
+Assets = Liabilities + Equity
+
+The meaning of this equation is important. Generally, sales growth, whether rapid or slow, dictates a larger asset base—higher levels of inventory, receivables, and fixed assets (plant, property, and equipment, or PPE). As a company's assets grow, its liabilities and/or equity also tend to grow in order for its financial position to stay in balance.
+
+How assets are supported, or financed, by a corresponding growth in payables, debt liabilities, and equity reveals a lot about a company's financial health. For now, suffice it to say that depending on a company's line of business and industry characteristics, possessing a reasonable mix of liabilities and equity is a sign of a financially healthy company. While it may be an overly simplistic view of the fundamental accounting equation, investors should view a much bigger equity value compared to liabilities as a measure of positive investment quality, because possessing high levels of debt can increase the likelihood that a business will face financial troubles.
+
+Balance Sheet Formats
+Standard accounting conventions present the balance sheet in one of two formats: the account form (horizontal presentation) and the report form (vertical presentation). Most companies favor the vertical report form, which doesn't conform to the typical explanation in investment literature of the balance sheet as having "two sides" that balance out.
+
+Whether the format is up-down or side-by-side, all balance sheets conform to a presentation that positions the various account entries into five sections:
+
+• Current assets (short-term): items that are convertible into cash within one year
+• Non-current assets (long-term): items of a more permanent nature
+• Current liabilities (short-term): obligations due within one year
+• Non-current liabilities (long-term): obligations due beyond one year
+• Shareholders equity (permanent): shareholders investment and retained earnings
+
+Account Presentation
+In the asset sections mentioned above, the accounts are listed in the descending order of their liquidity (how quickly and easily they can be converted to cash). Similarly, liabilities are listed in the order of their priority for payment.
+1
+ In financial reporting, the terms "current" and "non-current" are synonymous with the terms "short-term" and "long-term," respectively, and are used interchangeably.
+
+It should not be surprising that the diversity of activities included among publicly-traded companies is reflected in balance sheet account presentations. The balance sheets of utilities, banks, insurance companies, brokerage and investment banking firms, and other specialized businesses are significantly different in account presentation from those generally discussed in investment literature. In these instances, the investor will have to make allowances and/or defer to the experts.
+
+Lastly, there is little standardization of account nomenclature. For example, even the balance sheet has such alternative names as a "statement of financial position" and "statement of condition." Balance sheet accounts suffer from this same phenomenon. Fortunately, investors have easy access to extensive dictionaries of financial terminology to clarify an unfamiliar account entry.
+
+The Importance of Dates
+A balance sheet represents a company's financial position for one day at its fiscal year end—for example, the last day of its accounting period, which can differ from our more familiar calendar year. Companies typically select an ending period that corresponds to a time when their business activities have reached the lowest point in their annual cycle, which is referred to as their natural business year.
+
+In contrast, the income and cash flow statements reflect a company's operations for its whole fiscal year—365 days.
+1
+ Given this difference in "time," when using data from the balance sheet (akin to a photographic snapshot) and the income/cash flow statements (akin to a movie) it is more accurate, and is the practice of analysts, to use an average number for the balance sheet amount. This practice is referred to as "averaging," and involves taking the year-end (2023 and 2024) figures—let's say for total assets—and adding them together, then dividing the total by two. This exercise gives us a rough but useful approximation of a balance sheet amount for the whole year 2024, which is what the income statement number, such as net income, represents.
+
+What Is the Breakdown of the Balance Sheet?
+A balance sheet consists of three primary categories: assets, liabilities, and equity. Under the standard balance sheet equation, assets must equal liabilities plus equity.
+
+How Do You Analyze a Balance Sheet?
+There are three main ways to analyze the investment-quality of a company through its balance sheet. First, the fixed asset turnover ratio (FAT) shows how much revenue a company's total assets generate. Second, the return on assets (ROA) ratio shows how much profit is being generated from its total assets. Lastly, the cash conversion cycle (CCC) shows how well a company is managing its accounts receivables and inventory. Importantly, the cash conversion cycle is an important indicator of a company's working capital, which is the difference between its current assets and current liabilities.
+
+What Are the Five Sections of a Balance Sheet?
+The balance sheet is broken down into the following five sections:
+
+• Current assets
+• Non-current assets
+• Current liabilities
+• Non-current liabilities
+• Shareholders' equity
+
+The Bottom Line
+A company's balance sheet provides important information on a company's worth, broken down into assets, liabilities, and equity. Investors can gain valuable insight from this financial statement since it shows a company's resources and how it is funded to evaluate its financial health. Furthermore, the balance sheet is a key source for analyzing the various performance metrics of a company, such as its return on assets ratio, debt-to-equity (D/E) ratio, and liquidity ratio.

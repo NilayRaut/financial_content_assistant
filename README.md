@@ -9,7 +9,7 @@ It uses **semantic search** and **vector embeddings** to retrieve relevant chunk
 
 Perfect for financial analysts, students, and investors!
 
-![Financial Assistant Demo](demo_screenshot.png)
+![Financial Assistant Demo](images/Demo.png)
 
 
 ## 🚀 Key Features
@@ -77,7 +77,7 @@ The system implements two core generative AI components:
 ### Installation
 
 1. Clone this repository:
-   'git clone https://github.com/yourusername/financial-content-assistant.git'
+   'git clone https://github.com/NilayRaut/financial_content_assistant.git'
    'cd financial-content-assistant'
 2. Install required dependencies:
    'pip install -r requirements.txt'
@@ -131,21 +131,29 @@ View distribution of your queries: Financial Analysis, Investment Advice, Term E
 Run the automated tests to verify functionality:
 python tests/test_rag_system.py
 
-## Project Structure
+## 📂 Project Structure
+
 financial-content-assistant/
-├── Financial_Content_Assistant.ipynb  # Main notebook
-├── requirements.txt                   # Dependencies
-├── tests/                             # Test scripts
+├── Financial_Content_Assistant.ipynb     # Main Notebook (UI, RAG Assistant)
+├── INFO7375_Financial_Content_Assistant.pdf  # Project Documentation 
+├── index.html                            # Landing Page (for GitHub Pages)
+├── LICENSE                               # Open Source License
+├── README.md                             # Project README
+├── requirements.txt                      # Project Dependencies
+├── sample_data/                          # Sample Financial Documents
+│   ├── alphabet 10-k.pdf
+│   ├── apple k10 report.pdf
+│   ├── meta 10-k.pdf
+│   ├── meta 10-q.pdf
+│   ├── Microsoft 10-K.pdf
+│   ├── Netflix 10-k.pdf
+│   └── OECD Economic Outlook.pdf
+├── images/                               # Screenshots and Architecture Diagrams
+│   ├── Demo.png
+│   └── system_architecture.png
+├── tests/                                # Test Scripts
 │   ├── test_rag_system.py
-│   └── test_prompt_engineering.py
-├── docs/                              # Documentation
-│   ├── architecture.md
-│   └── user_guide.md
-├── sample_data/                       # Sample documents
-│   ├── sample_10k.pdf
-│   └── sample_quarterly.pdf
-└── images/                            # Screenshots and diagrams
-└── demo_screenshot.png
+
 
 ## 📢 Future Enhancements
 - OCR for scanned PDFs
