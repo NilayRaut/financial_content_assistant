@@ -133,9 +133,10 @@ python tests/test_rag_system.py
 
 ## 📂 Project Structure
 
+```plaintext
 financial-content-assistant/
 ├── Financial_Content_Assistant.ipynb     # Main Notebook (UI, RAG Assistant)
-├── INFO7375_Financial_Content_Assistant.pdf  # Project Documentation 
+├── INFO7375_Financial_Content_Assistant.pdf  # Project Documentation
 ├── index.html                            # Landing Page (for GitHub Pages)
 ├── LICENSE                               # Open Source License
 ├── README.md                             # Project README
@@ -152,7 +153,8 @@ financial-content-assistant/
 │   ├── Demo.png
 │   └── system_architecture.png
 ├── tests/                                # Test Scripts
-│   ├── test_rag_system.py
+│   └── test_rag_system.py
+```
 
 
 ## 📢 Future Enhancements
