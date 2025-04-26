@@ -92,6 +92,18 @@ requirements.txt                            # List of required Python packages
 
 ---
 
+## Ethical Considerations
+
+This financial content assistant implements several measures to address ethical concerns:
+
+1. **Source Attribution**: All information is properly attributed to source documents
+2. **Transparency**: Question types are clearly labeled for user awareness
+3. **Limitations**: The system is limited to information in the provided documents
+4. **Potential Biases**: Financial data may contain inherent biases that could affect responses
+5. **Privacy**: No user data is stored or shared by this application
+
+---
+
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
