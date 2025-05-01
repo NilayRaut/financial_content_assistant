@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,12 +14,37 @@
             --secondary: #FFC107;
             --light-bg: #F5F5F5;
             --dark-text: #333;
+            --white: #ffffff;
+            --card-bg: #ffffff;
+            --body-bg: #ffffff;
+            --footer-bg: #333;
+            --footer-text: #ffffff;
+            --border-color: rgba(0,0,0,0.1);
+            --shadow-color: rgba(0,0,0,0.1);
+        }
+
+        [data-theme="dark"] {
+            --primary: #4CAF50;
+            --primary-light: #66BB6A;
+            --primary-dark: #2E7D32;
+            --secondary: #FFD54F;
+            --light-bg: #303030;
+            --dark-text: #E0E0E0;
+            --white: #424242;
+            --card-bg: #424242;
+            --body-bg: #212121;
+            --footer-bg: #1A1A1A;
+            --footer-text: #E0E0E0;
+            --border-color: rgba(255,255,255,0.1);
+            --shadow-color: rgba(0,0,0,0.3);
         }
         
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             color: var(--dark-text);
+            background-color: var(--body-bg);
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
         
         .hero {
@@ -32,14 +57,16 @@
         .feature-card {
             border: none;
             border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 5px 15px var(--shadow-color);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             height: 100%;
+            background-color: var(--card-bg);
+            color: var(--dark-text);
         }
         
         .feature-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            box-shadow: 0 10px 25px var(--shadow-color);
         }
         
         .feature-icon {
@@ -54,7 +81,7 @@
         
         .section-title {
             margin-bottom: 2rem;
-            color: var(--primary-dark);
+            color: var(--dark-text);
             position: relative;
             padding-bottom: 0.5rem;
         }
@@ -68,14 +95,19 @@
             height: 3px;
             background-color: var(--primary-light);
         }
+
+        .section-title.text-center:after {
+            left: 50%;
+            transform: translateX(-50%);
+        }
         
         .bg-light-custom {
             background-color: var(--light-bg);
         }
         
         .tech-pill {
-            background-color: #e8f5e9;
-            color: var(--primary-dark);
+            background-color: rgba(76, 175, 80, 0.1);
+            color: var(--primary);
             border-radius: 30px;
             padding: 0.5rem 1rem;
             display: inline-block;
@@ -84,8 +116,8 @@
         }
         
         .footer {
-            background-color: #333;
-            color: white;
+            background-color: var(--footer-bg);
+            color: var(--footer-text);
             padding: 2rem 0;
             margin-top: 3rem;
         }
@@ -120,7 +152,7 @@
             width: 25px;
             height: 25px;
             right: -12px;
-            background-color: white;
+            background-color: var(--card-bg);
             border: 4px solid var(--primary);
             top: 15px;
             border-radius: 50%;
@@ -143,9 +175,9 @@
             width: 0;
             z-index: 1;
             right: 30px;
-            border: medium solid white;
+            border: medium solid var(--card-bg);
             border-width: 10px 0 10px 10px;
-            border-color: transparent transparent transparent white;
+            border-color: transparent transparent transparent var(--card-bg);
         }
         
         .right::before {
@@ -156,9 +188,9 @@
             width: 0;
             z-index: 1;
             left: 30px;
-            border: medium solid white;
+            border: medium solid var(--card-bg);
             border-width: 10px 10px 10px 0;
-            border-color: transparent white transparent transparent;
+            border-color: transparent var(--card-bg) transparent transparent;
         }
         
         .right::after {
@@ -167,10 +199,10 @@
         
         .timeline-content {
             padding: 20px 30px;
-            background-color: white;
+            background-color: var(--card-bg);
             position: relative;
             border-radius: 6px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 8px var(--shadow-color);
         }
         
         .challenge-card {
@@ -178,16 +210,18 @@
             padding: 1.5rem;
             margin-bottom: 1.5rem;
             border-radius: 0.5rem;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 5px 15px var(--shadow-color);
+            background-color: var(--card-bg);
         }
         
         .solution-item {
-            background-color: #e8f5e9;
+            background-color: rgba(76, 175, 80, 0.1);
             padding: 0.75rem 1rem;
             margin-bottom: 0.5rem;
             border-radius: 0.5rem;
             display: flex;
             align-items: center;
+            color: var(--dark-text);
         }
         
         .solution-item i {
@@ -198,7 +232,94 @@
         .demo-container {
             border-radius: 10px;
             overflow: hidden;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            box-shadow: 0 10px 25px var(--shadow-color);
+            background-color: var(--card-bg);
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            color: var(--dark-text);
+            border: 1px solid var(--border-color);
+        }
+
+        .table {
+            color: var(--dark-text);
+        }
+
+        .list-group-item {
+            background-color: var(--card-bg);
+            color: var(--dark-text);
+            border-color: var(--border-color);
+        }
+
+        .table-striped > tbody > tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+
+        [data-theme="dark"] .table-striped > tbody > tr:nth-of-type(odd) {
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+
+        /* Theme toggle switch styles */
+        .theme-switch-wrapper {
+            display: flex;
+            align-items: center;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            background-color: var(--card-bg);
+            padding: 8px 15px;
+            border-radius: 30px;
+            box-shadow: 0 2px 10px var(--shadow-color);
+        }
+
+        .theme-switch {
+            display: inline-block;
+            height: 24px;
+            position: relative;
+            width: 50px;
+        }
+
+        .theme-switch input {
+            display: none;
+        }
+
+        .slider {
+            background-color: #ccc;
+            bottom: 0;
+            cursor: pointer;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            transition: .4s;
+            border-radius: 34px;
+        }
+
+        .slider:before {
+            background-color: white;
+            bottom: 4px;
+            content: "";
+            height: 16px;
+            left: 4px;
+            position: absolute;
+            transition: .4s;
+            width: 16px;
+            border-radius: 50%;
+        }
+
+        input:checked + .slider {
+            background-color: var(--primary);
+        }
+
+        input:checked + .slider:before {
+            transform: translateX(26px);
+        }
+
+        .theme-icon {
+            margin: 0 10px;
+            font-size: 16px;
         }
 
         @media screen and (max-width: 768px) {
@@ -214,9 +335,9 @@
             
             .timeline-container::before {
                 left: 60px;
-                border: medium solid white;
+                border: medium solid var(--card-bg);
                 border-width: 10px 10px 10px 0;
-                border-color: transparent white transparent transparent;
+                border-color: transparent var(--card-bg) transparent transparent;
             }
             
             .left::after, .right::after {
@@ -226,10 +347,25 @@
             .right {
                 left: 0%;
             }
+
+            .theme-switch-wrapper {
+                top: 10px;
+                right: 10px;
+            }
         }
     </style>
 </head>
 <body>
+    <!-- Theme Switch -->
+    <div class="theme-switch-wrapper">
+        <span class="theme-icon"><i class="fas fa-sun"></i></span>
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider"></div>
+        </label>
+        <span class="theme-icon"><i class="fas fa-moon"></i></span>
+    </div>
+
     <!-- Hero Section -->
     <div class="hero">
         <div class="container">
@@ -342,6 +478,7 @@
         </div>
     </div>
 
+    <!-- Rest of the HTML content remains the same, but styles will apply based on theme -->
     <!-- Demo Section -->
     <div class="section bg-light-custom" id="demo">
         <div class="container">
@@ -467,151 +604,6 @@
         </div>
     </div>
 
-    <!-- Future Improvements -->
-    <div class="container section" id="future">
-        <h2 class="section-title">Future Improvements</h2>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card mb-4">
-                    <div class="card-body">
-                        <h4><i class="fas fa-file-csv me-2 text-success"></i> Enhanced Document Support</h4>
-                        <ul class="list-unstyled">
-                            <li><i class="fas fa-check text-success me-2"></i> CSV/XLSX with tabular data extraction</li>
-                            <li><i class="fas fa-check text-success me-2"></i> HTML/Web Content processing</li>
-                            <li><i class="fas fa-check text-success me-2"></i> OCR for scanned documents</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card mb-4">
-                    <div class="card-body">
-                        <h4><i class="fas fa-chart-line me-2 text-success"></i> Advanced Analytics</h4>
-                        <ul class="list-unstyled">
-                            <li><i class="fas fa-check text-success me-2"></i> Financial Data Visualization</li>
-                            <li><i class="fas fa-check text-success me-2"></i> Trend Analysis across documents</li>
-                            <li><i class="fas fa-check text-success me-2"></i> Comparative Analysis between periods</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card mb-4">
-                    <div class="card-body">
-                        <h4><i class="fas fa-search-plus me-2 text-success"></i> Better Search</h4>
-                        <ul class="list-unstyled">
-                            <li><i class="fas fa-check text-success me-2"></i> Domain-Specific Embeddings</li>
-                            <li><i class="fas fa-check text-success me-2"></i> Hybrid Retrieval approach</li>
-                            <li><i class="fas fa-check text-success me-2"></i> Cross-encoder re-ranking</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h4><i class="fas fa-desktop me-2 text-success"></i> Better UX</h4>
-                        <ul class="list-unstyled">
-                            <li><i class="fas fa-check text-success me-2"></i> Standalone Web Application</li>
-                            <li><i class="fas fa-check text-success me-2"></i> Multi-User Support</li>
-                            <li><i class="fas fa-check text-success me-2"></i> Mobile Compatibility</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Ethical Considerations -->
-    <div class="section bg-light-custom" id="ethical">
-        <div class="container">
-            <h2 class="section-title text-center">Ethical Considerations</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h4><i class="fas fa-balance-scale text-success me-2"></i> Financial Advice Limitations</h4>
-                            <p>For informational purposes only; includes disclaimers and advises consulting professionals for personalized advice.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h4><i class="fas fa-shield-alt text-success me-2"></i> Data Privacy</h4>
-                            <p>Processes documents locally, doesn't persist data beyond session, and only sends necessary chunks to API.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h4><i class="fas fa-check-double text-success me-2"></i> Information Accuracy</h4>
-                            <p>Provides source attribution and limits answers to information in uploaded documents.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h4><i class="fas fa-eye text-success me-2"></i> Transparency</h4>
-                            <p>Clearly indicates sources, question types, and distinguishes between retrieved facts and generated content.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Documentation & GitHub -->
-    <div class="container section text-center" id="documentation">
-        <h2 class="section-title text-center">Documentation & Source Code</h2>
-        <p>Check out the complete documentation and source code for the Financial Content Assistant:</p>
-        <div class="row justify-content-center mt-5">
-            <div class="col-md-4">
-                <div class="card feature-card p-4">
-                    <div class="text-center">
-                        <div class="feature-icon">
-                            <i class="fab fa-github"></i>
-                        </div>
-                        <h3>GitHub Repository</h3>
-                        <p>Access the complete source code, setup instructions, and contribute to the project</p>
-                        <a href="https://github.com/NilayRaut/financial_content_assistant.git" class="btn btn-dark mt-3">
-                            <i class="fab fa-github me-2"></i> View on GitHub
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card feature-card p-4">
-                    <div class="text-center">
-                        <div class="feature-icon">
-                            <i class="fas fa-file-pdf"></i>
-                        </div>
-                        <h3>Project Documentation</h3>
-                        <p>Download the comprehensive technical documentation with implementation details</p>
-                        <a href="https://github.com/NilayRaut/financial_content_assistant/blob/main/INFO7375_%20Financial%20Content%20Assistant%20.pdf" class="btn btn-success mt-3" download>
-                            <i class="fas fa-download me-2"></i> Download PDF
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Conclusion -->
-    <div class="section bg-light-custom">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <h2 class="section-title text-center">Conclusion</h2>
-                    <p>The Financial Content Assistant represents a significant advancement in how financial professionals can interact with complex document sets. By combining the power of modern AI with domain-specific optimization for financial analysis, the system empowers users to extract insights faster and more accurately than ever before.</p>
-                    <p>As financial data continues to grow in volume and complexity, tools like this will become increasingly essential. By combining semantic search, contextual understanding, and transparent source attribution, this project demonstrates how AI can augment human expertise rather than replace it—empowering financial professionals to make better-informed decisions more efficiently.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
@@ -634,5 +626,47 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Theme toggle functionality
+        const toggleSwitch = document.querySelector('#checkbox');
+        const currentTheme = localStorage.getItem('theme') || 'light';
+
+        // Set initial theme based on local storage or default
+        document.documentElement.setAttribute('data-theme', currentTheme);
+        toggleSwitch.checked = currentTheme === 'dark';
+
+        // Function to switch theme
+        function switchTheme(e) {
+            if (e.target.checked) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                localStorage.setItem('theme', 'dark');
+                updateGitHubButtonColor(true);
+            } else {
+                document.documentElement.setAttribute('data-theme', 'light');
+                localStorage.setItem('theme', 'light');
+                updateGitHubButtonColor(false);
+            }
+        }
+
+        // Function to update GitHub button color
+        function updateGitHubButtonColor(isDark) {
+            const gitHubButton = document.querySelector('.btn-outline-dark');
+            if (gitHubButton) {
+                if (isDark) {
+                    gitHubButton.classList.remove('btn-outline-dark');
+                    gitHubButton.classList.add('btn-outline-light');
+                } else {
+                    gitHubButton.classList.remove('btn-outline-light');
+                    gitHubButton.classList.add('btn-outline-dark');
+                }
+            }
+        }
+
+        // Initial GitHub button color update
+        updateGitHubButtonColor(currentTheme === 'dark');
+
+        // Add event listener for theme toggle
+        toggleSwitch.addEventListener('change', switchTheme, false);
+    </script>
 </body>
 </html>
